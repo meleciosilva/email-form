@@ -3,17 +3,23 @@ form {
   flex-direction: column;
 }
 
-input, textarea {
-  margin-bottom: 30px;
+form fieldset {
+  border: none;
+  margin-bottom: 8px;
 }
 
-textarea {
+form input, textarea {
+  width: 100%;
+}
+
+form textarea {
   height: 175px;
 }
 
-button {
-  margin-top: 10px;
+form button {
+  margin: 10px 15px;
   width: 60px;
+  border: 1px black solid;
   border-radius: 5px;
   background-color: #fff;
 }
