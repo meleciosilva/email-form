@@ -1,0 +1,19 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 30px;
+}
+
+textarea {
+  height: 175px;
+}
+
+button {
+  margin-top: 10px;
+  width: 60px;
+  border-radius: 5px;
+  background-color: #fff;
+}
